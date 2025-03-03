@@ -4,26 +4,52 @@
 int main() {
 
     char estado; 
-    char codigodacarta[50];
+    char codigodacarta[4];
     char nomedacidade[50];
     int populacao, pontosturisticos;
-    float area, pib;
+    float area;
+    float pib;
+
+    printf("Cadastro de Cartas do Jogo Super Trunfo (cidades) \n");
+    
+    printf("Digite o Nome do Estado: \n");
+    scanf("%s", &estado);
+
+    printf("Digite o Código da Carta: \n");
+    scanf("%s", &codigodacarta);
+
+    printf("Digite o Nome da Cidade: \n");
+    scanf("%s", &nomedacidade);
+
+    printf("Digite o Número de Habitantes: \n");
+    scanf("%d", &populacao);
+
+    printf("Digite Área: \n");
+    scanf("%f", &area);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib);
+
+    printf("Digite o Número de Pontos Turísticos: \n");
+    scanf("%d", &pontosturisticos);
+    printf("\n");
+
+
+    printf("Carta 1 \n");
+    printf("\n");
 
 
 
+    printf("Estado: %s\n", &estado);
+    printf("Código: %s\n", &codigodacarta);
+    printf("Nome da Cidade: %s\n", &nomedacidade);
+    printf("População: %d\n", populacao);
+    printf("Área: %f km²\n", area);
+    printf("PIB: %f Bilhões de Reais\n", pib);
+    printf("Números de Pontos Turisticos: %d\n", pontosturisticos);
 
-
-
-printf("davi\n");
-
-// Carta 1:
-// Estado: A
-// Código: A01
-// Nome da Cidade: São Paulo
-// População: 12325000
-// Área: 1521.11 km²
-//PIB: 699.28 bilhões de reais
-// Número de Pontos Turísticos: 50
+    printf("\n");
+    
 
 
 
