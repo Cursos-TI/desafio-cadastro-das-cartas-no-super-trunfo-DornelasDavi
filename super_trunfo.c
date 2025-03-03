@@ -44,8 +44,8 @@ int main() {
     printf("Código: %s\n", &codigodacarta);
     printf("Nome da Cidade: %s\n", &nomedacidade);
     printf("População: %d\n", populacao);
-    printf("Área: %f km²\n", area);
-    printf("PIB: %f Bilhões de Reais\n", pib);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: %.2f Bilhões de Reais\n", pib);
     printf("Números de Pontos Turisticos: %d\n", pontosturisticos);
 
     printf("\n");
